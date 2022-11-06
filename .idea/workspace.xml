@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e91d2763-057d-4fac-a7ea-a5c84f85f238" name="Changes" comment="Add Class OddOrEven">
+    <list default="true" id="e91d2763-057d-4fac-a7ea-a5c84f85f238" name="Changes" comment="PasswordComplex checking">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PasswordComplexity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PasswordComplexityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OddOrEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OddOrEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OddOrEvenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OddOrEvenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +41,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OddOrEven">
+  <component name="RunManager" selected="Application.PasswordComplexity">
     <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OddOrEven" />
+      <module name="OddOrEven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordComplexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PasswordComplexity" />
       <module name="OddOrEven" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,8 +65,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordComplexityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OddOrEven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordComplexityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordComplexityTest.isPasswordComplex_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OddOrEven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PasswordComplexityTest" />
+      <option name="METHOD_NAME" value="isPasswordComplex_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PasswordComplexity" />
+        <item itemvalue="JUnit.PasswordComplexityTest" />
+        <item itemvalue="JUnit.PasswordComplexityTest.isPasswordComplex_true" />
         <item itemvalue="Application.OddOrEven" />
         <item itemvalue="JUnit.OddOrEvenTest" />
       </list>
@@ -79,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667731709908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modify OddOrEven">
+      <created>1667732444955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732444955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Class OddOrEven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class OddOrEven" />
+    <MESSAGE value="Modify OddOrEven" />
+    <MESSAGE value="PasswordComplex checking" />
+    <option name="LAST_COMMIT_MESSAGE" value="PasswordComplex checking" />
   </component>
 </project>

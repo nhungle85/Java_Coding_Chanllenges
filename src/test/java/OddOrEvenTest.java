@@ -11,7 +11,7 @@ public class OddOrEvenTest {
     }
 
     @Test
-    public void isEven_fail() {
+    public void isEven_false() {
         assertFalse(OddOrEven.isEven(1));
         assertFalse(OddOrEven.isEven(-1));
         assertFalse(OddOrEven.isEven(93));
